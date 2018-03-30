@@ -25,6 +25,8 @@ header {
     margin: 5px;
     width: 50%;
     padding: 20px;
+    line-height: 60px;
+    float: left;
 }
 #article {
     color:  #ebebeb;
@@ -32,15 +34,30 @@ header {
     padding: 20px;
 }
 #h1, #p {
+    clear: both;
     color: #777;
     background-color: #ebebeb;
+    margin: 5px;    
 }
+#h1{
+    font-weight: bold;
+}
+
 #right {
     background-color: #ebebeb;
+    margin: 5px;
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    
 }
 #footer {
+    clear: both;
+    overflow: auto;
     background-color: #ebebeb;
     margin: 5px;
+    padding: 20px;
     text-align: center;
 }
 
