@@ -21,10 +21,15 @@ header {
 }
 #left {
     background-color: #ebebeb; 
+    text-align: center;
+    margin: 5px;
+    width: 50%;
+    padding: 20px;
 }
 #article {
     color:  #ebebeb;
     background-color: #777;
+    padding: 20px;
 }
 #h1, #p {
     color: #777;
@@ -35,6 +40,8 @@ header {
 }
 #footer {
     background-color: #ebebeb;
+    margin: 5px;
+    text-align: center;
 }
 
 
